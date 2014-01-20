@@ -5,12 +5,14 @@ This source code is in the public domain.
 This is the template mechanism I used for Draco Concordans, my annotation
 website for _The Dragon Waiting_ (John M. Ford): http://eblong.com/draconc/
 
+I am providing this because somebody asked, not because I think it will
+be useful.
+
 It is creaky, overspecialized code -- but on the other hand, it's
 completely undocumented! I'm afraid I can't help you with any of it. I
 really don't remember how it works myself. A more sensible move would
-be to take a standard Python templating library and build this system
+be to take a standard Python templating library and build a new system
 from scratch.
-
 
 * Quick overview:
 
@@ -19,6 +21,10 @@ To run:
     python annotate.py
 
 The ./output directory will be filled in with the generated HTML output.
+This source repository has the ./output directory already filled in. So
+if you run the script again, the output won't change. But if you tweak
+the templates or the topic files, and run the script, you'll see ./output
+update.
 
 The ./lib directory contains the template files.
 
@@ -36,4 +42,19 @@ The ./lib directory contains the template files.
 
 The ./lib/src directory contains topics and page references, one per
 file. These are written in a crude markup language which is, like the
-rest of this system, not documented.
+rest of this system, not documented. Here's what I remember:
+
+If the file begins with a page number ("p3") and a topic name in curly
+braces, it's a page reference. Otherwise it's a topic. Page numbers can
+be fractional ("p3.5") to ensure proper ordering when two different
+ones occur on a page.
+
+Anything in square brackets is a link. A slash ("[xxx/Exes]") means that
+the first part is a topic or ref name (the filename), the second part is
+the human-readable name to display for the link. Two colons ("[::foo]")
+means that *this* topic should appear in the named topic as a "see also".
+
+Two colons at the beginning of a line (":: 60") means that this topic
+is mentioned on that page.
+
+
