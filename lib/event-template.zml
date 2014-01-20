@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<$#entryline$>
+<event id="ev_<$key$>" start="<$page$>" title="p<$page$>: <$label$>" link="../<$url$>">
+<$body$>
+</event>
+<$/$>
+
+<data date-time-format="gregorian">
+
+<$list$>
+
+</data>

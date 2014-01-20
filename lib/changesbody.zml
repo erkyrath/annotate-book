@@ -1,0 +1,17 @@
+<div class="Subject">
+Recent Updates
+</div>
+
+<p>
+This is a changelog.
+</p>
+
+<$#day$>
+<div class="PageNote">
+<$date$>
+</div>
+
+<$body$>
+<$/$>
+
+<$changes$>

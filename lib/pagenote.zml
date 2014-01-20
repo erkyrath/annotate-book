@@ -1,0 +1,13 @@
+<div class="PageNote">
+<a name="<$key$>"><$page$></a>
+<a href="#<$key$>"><$permalink$></a>
+</div>
+
+<$entrybody$>
+
+<$?reftopics$>
+<div class="Refs">
+<span class="RefLabel"><$bullet$>See also:</span>
+<$reftopics$>
+</div>
+<$/$>

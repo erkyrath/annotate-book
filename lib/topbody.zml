@@ -1,0 +1,57 @@
+<p>
+This is the body template for the first page.
+</p>
+
+<div class="Subject">
+Intents
+</div>
+
+<div class="Subject">
+Contents
+</div>
+
+<$#topicline$>
+<a class="ContentsLink" href="topics-<$breakkey$>.html">
+<$?breakprev$><$:$>Topics: &nbsp;
+<$/$>
+<$breaklabel$></a>
+<$/$>
+
+<$#chapterline$>
+<li>
+<a class="ContentsLink" href="chapter-<$chapterkey$>.html"><$chaptername$></a>
+<$?nonintro$>p.<$chapterstart$>
+<$/$>
+<$/$>
+
+<$#partline$>
+<li class="ContentsPart"><$partname$>
+<$/$>
+
+<$#bookmarkline$>
+<$separator$>
+<a href="<$url$>"><$label$></a><$/$>
+
+<ul>
+
+<li class="WideList">
+<$topicbreaklist$>
+<ul><li>Want to jump in? Try: <$trytopics$>...</ul>
+
+<li class="WideList">
+<a class="ContentsLink" href="changes.html">Recent Updates</a>
+<ul><li>Changes, listed by date.
+(Last update: <$lastchange$>.)</ul>
+
+<li class="WideList">
+<a class="ContentsLink" href="about.html">About This Work</a>
+<ul><li>How this came to be.</ul>
+
+</ul>
+
+<p>
+Page notes, by chapter:
+</p>
+<ul>
+<$chapterlist$>
+</ul>

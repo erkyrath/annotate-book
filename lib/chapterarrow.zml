@@ -1,0 +1,14 @@
+<$?chapterprev$>
+<a href="chapter-<$chapterprev$>.html">&lt;&lt; previous chapter</a>
+<$:$>
+<a href="index.html">&lt;&lt; contents</a>
+<$/$>
+
+<$bullet$>
+
+<$?chapternext$>
+<a href="chapter-<$chapternext$>.html">next chapter &gt;&gt;</a>
+<$:$>
+<a href="index.html">contents &gt;&gt;</a>
+<$/$>
+

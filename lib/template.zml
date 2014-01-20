@@ -1,0 +1,58 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Concordance<$?pagetitle$>: <$pagetitle$><$/$></title>
+<$?headextra$><$headextra$><$/$>
+
+<link rel="stylesheet" href="all.css" type="text/css">
+
+</head>
+<body<$?bodytagextra$> <$bodytagextra$><$/$>>
+<div class="Document"<$?docid$> id="doc-<$docid$>"<$/$>>
+
+<div class="Header">
+<div class="HeaderTitle">
+<a href="index.html" class="HeaderLink">Concordance</a>
+</div>
+<div class="HeaderSubtitle">
+A sample thing
+</div>
+</div>
+
+<div class="Body">
+
+<$#bullet$><span class="Bullet">&#8226;</span><$/$>
+<$#permalink$><span class="Permalink">&#9662;</span><$/$>
+
+<$?subject$>
+<div class="Subject">
+<$?subsubject$>
+<span class="SubjectFloat"><$subsubject$></span>
+<$/$>
+<$subject$>
+</div>
+<$/$>
+
+<$?headfoot$>
+<div class="ChapterArrows">
+<$headfoot$>
+</div>
+<$/$>
+
+<$body$>
+
+<$?headfoot$>
+<div class="ChapterArrows">
+<$headfoot$>
+</div>
+<$/$>
+
+</div>
+
+<div class="Footer">
+<a href="index.html">Concordance</a>
+</div>
+
+</div>
+</body>
+</html>

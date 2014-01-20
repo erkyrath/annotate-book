@@ -1,0 +1,20 @@
+<div class="Subject">
+<a name="<$key$>"><$title$></a>
+<a href="#<$key$>"><$permalink$></a>
+</div>
+
+<$entrybody$>
+
+<$?refpages$>
+<div class="Refs">
+<span class="RefLabel"><$bullet$>On:</span>
+<$refpages$>
+</div>
+<$/$>
+
+<$?reftopics$>
+<div class="Refs">
+<span class="RefLabel"><$bullet$>See<$?seenoalso$><$:$> also<$/$>:</span>
+<$reftopics$>
+</div>
+<$/$>
