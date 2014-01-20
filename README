@@ -1,0 +1,39 @@
+Annotate-Book
+Written by Andrew Plotkin
+This source code is in the public domain.
+
+This is the template mechanism I used for Draco Concordans, my annotation
+website for _The Dragon Waiting_ (John M. Ford): http://eblong.com/draconc/
+
+It is creaky, overspecialized code -- but on the other hand, it's
+completely undocumented! I'm afraid I can't help you with any of it. I
+really don't remember how it works myself. A more sensible move would
+be to take a standard Python templating library and build this system
+from scratch.
+
+
+* Quick overview:
+
+To run:
+
+    python annotate.py
+
+The ./output directory will be filled in with the generated HTML output.
+
+The ./lib directory contains the template files.
+
+- *.zml: HTML templates.
+- all.css: Stylesheet (copied verbatim to ./output).
+- chapters: A list of chapters, the page number each starts at, and the
+  chapter title.
+- topics: A list of letters at which to divide the alphabet. (The first
+  must be A.) In the example, we'll have topic pages A-E, F-K, L-Q, R-Z.
+- trytopics: A list of topics to mention under "Want to jump in?" on
+  the front page.
+- frames: Identifiers and names for special quote-boxes. The examples
+  "md" and "eng" correspond with the stylesheet entries "FrameMD" and
+  "FrameENG".
+
+The ./lib/src directory contains topics and page references, one per
+file. These are written in a crude markup language which is, like the
+rest of this system, not documented.

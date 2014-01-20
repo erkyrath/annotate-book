@@ -162,7 +162,7 @@ a.HeaderLink {
 .Frame {
 }
 
-.FrameDW {
+.FrameMD {
   margin-left: 20px;
   margin-right: 20px;
   border-color: #B09999;
@@ -172,7 +172,7 @@ a.HeaderLink {
   padding: 7px 7px 7px 12px;
 }
 
-.FrameREAL {
+.FrameENG {
   margin-left: 20px;
   margin-right: 20px;
   border-color: #A0A0F0;
@@ -180,43 +180,6 @@ a.HeaderLink {
   border-width: 0px 0px 0px 5px;
   border-style: solid;
   padding: 7px 7px 7px 12px;
-}
-
-.FrameSS {
-  margin-left: 20px;
-  margin-right: 20px;
-  border-color: #B0B080;
-  background: #F4E0CC;
-  border-width: 0px 0px 0px 5px;
-  border-style: solid;
-  padding: 7px 7px 7px 12px;
-}
-
-.FrameFIC {
-  margin-left: 20px;
-  margin-right: 20px;
-  border-color: #98B898;
-  background: #F4E0CC;
-  border-width: 0px 0px 0px 5px;
-  border-style: solid;
-  padding: 7px 7px 7px 12px;
-}
-
-.FrameDATE {
-  margin-left: 40px;
-  font-size: 10px;
-  font-style: italic;
-}
-
-.FrameDOC {
-  font-size: 11px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  padding-left: 23px;
-  padding-right: 23px;
-  background: #D8C8E0;
 }
 
 .Frame p {
